@@ -59,7 +59,7 @@ if (isset($_SESSION['username'])) {
 
       <h2><b>Shipment Control<br>System</b></h2>
     </div>
-    <!-- /.login-logo -->
+
 
       <div class="card-body login-card-body">
    
