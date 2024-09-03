@@ -234,11 +234,10 @@ document.getElementById('saveChanges').addEventListener('click', () => {
   .then(response => response.json())
   .then(result => {
     if (result.success) {
-      // Close the modal and reload data if the update was successful
       $('#editModal').modal('hide');
-      document.getElementById('employeeTableBody').innerHTML = ''; // Clear the table body
-      offset = 0; // Reset offset
-      loadData(); // Reload data
+      document.getElementById('employeeTableBody').innerHTML = ''; 
+      offset = 0; 
+      loadData();
     } else {
       console.error('Update failed:', result.error);
     }
