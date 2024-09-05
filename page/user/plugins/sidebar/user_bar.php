@@ -43,6 +43,14 @@
           </a>
         </li>
 
+        <li class="nav-item">
+          <a href="cost_structure.php"
+            class="nav-link <?= ($_SERVER['REQUEST_URI'] == "/shipment_control/page/user/cost_structure.php") ? 'active' : '' ?>">
+            <i class="fas fa-dollar-sign"></i>
+            <p>Cost Structure</p>
+          </a>
+        </li>
+
 
 
         <?php include 'logout.php'; ?>
